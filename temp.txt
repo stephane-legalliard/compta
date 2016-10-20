@@ -1,0 +1,52 @@
+PHPUnit 4.8.27 by Sebastian Bergmann and contributors.
+
+EEEEEEE
+
+Time: 7.76 seconds, Memory: 6.00MB
+
+There were 7 errors:
+
+1) compta\Test\AppTest::testUserSelection with data set #0 ('/')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+2) compta\Test\AppTest::testUserSelection with data set #1 ('/users/1')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+3) compta\Test\AppTest::testUserSelection with data set #2 ('/login')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+4) compta\Test\AppTest::testUserSelection with data set #3 ('/admin')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+5) compta\Test\AppTest::testUserSelection with data set #4 ('/admin/user/add')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+6) compta\Test\AppTest::testUserSelection with data set #5 ('/admin/user/1/edit')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+7) compta\Test\AppTest::testUserSelection with data set #6 ('/admin/user_group/1/edit')
+Symfony\Component\Debug\Exception\ContextErrorException: Notice: Undefined property: compta\DAO\UserDAO::$db
+
+/var/www/html/compta/src/DAO/UserDAO.php:19
+/var/www/html/compta/test/Test/AppTest.php:32
+
+FAILURES!
+Tests: 7, Assertions: 0, Errors: 7.
